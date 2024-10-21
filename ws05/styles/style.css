@@ -1,0 +1,17 @@
+header,
+footer {
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    clear: left;
+    text-align: center;
+}
+
+.wrapper {
+display: flex;
+}
+
+h1 {
+    font-size: medium;
+    text-align: right;
+}

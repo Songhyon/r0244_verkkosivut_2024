@@ -1,0 +1,59 @@
+body {
+  color: rgb(204, 77, 193);
+  background-color: rgb(0, 0, 0);
+}
+
+.box {
+  border: 2px dotted #ffffff; /* Border around the box */
+  background-color: #000000; /* Light gray background */
+  padding: 20px; /* Space inside the box */
+  margin: 10px; /* Space outside the box */
+  border-radius: 5px; /* Rounded corners */
+  height: 100px;
+  width: 100px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  font-family: vedana;
+  font-size: 12px;
+  color: lightgray;
+}
+ul > li {
+  list-style: square;
+  color: white;
+}
+ol > li {
+  list-style: lower-alpha;
+  color: white;
+}
+
+.image {
+  display: flex; /* Enable Flexbox layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically (if height is defined) */
+  height: 0px; /* Set height for vertical centering */
+  border: 2px dotted #000000; /* Dotted border */
+  background-color: #000000; /* Light gray background */
+  padding: 20px; /* Space inside the box */
+  margin: 10px; /* Space outside the box */
+}
+
+.centered-image {
+  max-width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
