@@ -1,6 +1,9 @@
 body {
-  color: rgb(204, 77, 193);
+  color: rgb(255, 0, 234);
   background-color: rgb(0, 0, 0);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box {
@@ -21,10 +24,13 @@ h1 {
 
 h2 {
   color: white;
+  font-size: medium;
+  font-family: cursive;
 }
 
 h3 {
   color: white;
+  font-size: medium;
 }
 
 p {
@@ -46,10 +52,10 @@ ol > li {
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center children horizontally */
   justify-content: center; /* Center children vertically (if height is defined) */
-  height: 0px; /* Set height for vertical centering */
-  border: 2px dotted #000000; /* Dotted border */
+  height: 10px; /* Set height for vertical centering */
+  border: 3px dotted #000000; /* Dotted border */
   background-color: #000000; /* Light gray background */
-  padding: 20px; /* Space inside the box */
+  padding: 25px; /* Space inside the box */
   margin: 10px; /* Space outside the box */
 }
 
