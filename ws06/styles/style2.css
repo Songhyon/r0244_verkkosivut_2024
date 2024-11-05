@@ -1,0 +1,15 @@
+aside {
+    float: right;
+    width: 25%;
+    padding: 1em;
+    border-left: 1px solid gray;
+    color: blue;
+    height: 542px;
+  }
+  article {
+    float: left;
+    width: 65%;
+    padding: 1em;
+    color: blue;
+    height: 542px;
+  }
