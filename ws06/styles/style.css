@@ -8,7 +8,7 @@ header,
 footer {
     padding: 1em;
     color: white;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     clear: left;
     text-align: center;
     
@@ -16,7 +16,6 @@ footer {
 
 .wrapper {
     display: flex;
-    background-color: aqua;
   }
   
   .wrapper > div {
@@ -32,4 +31,25 @@ h1 {
     text-align: center;
 }
 
-  
+a:link {
+    color: #0400ff;
+  }
+  a:visited {
+    color: #1100ff;
+  }
+  a:focus {
+    color: #ffffff;
+  }
+  a:hover {
+    color: #ff0000;
+  }
+  a:active {
+    color: #ff0000;
+  }
+
+  nav {
+    max-width: 100%;
+    background-color: #020202ce;
+    margin: 0;
+    padding: 1em;
+  }
