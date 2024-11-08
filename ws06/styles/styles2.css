@@ -35,3 +35,15 @@
     list-style-type: none;
     padding: 5px;
   }
+  .text::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  .disney::first-letter {
+    color: #0008ff;
+    font-size: xx-large;
+  }
+  .hbo::first-letter {
+    color: #000000;
+    font-size: xx-large;
+  }
