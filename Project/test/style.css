@@ -1,3 +1,7 @@
 #carouselExampleIndicators {
     width: 500px;
+    padding: 10px;
+    text-align: center;
+    display: grid; place-items: right;
+    
 }
