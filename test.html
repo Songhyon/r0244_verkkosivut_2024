@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Info Panel</title>
+  <style>
+    .info-panel {
+      display: none; /* Hidden by default */
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 5px;
+    }
+
+    .info-panel.visible {
+      display: block; /* Show when toggled */
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .table th, .table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    .table tr:hover {
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr onclick="toggleInfo(1)">
+        <th scope="row">1</th>
+        <td>Toni</td>
+        <td>Nguyen</td>
+        <td>Wide receiver</td>
+      </tr>
+      <tr onclick="toggleInfo(2)">
+        <th scope="row">2</th>
+        <td>Jason</td>
+        <td>Tran</td>
+        <td>Wide receiver</td>
+      </tr>
+      <tr onclick="toggleInfo(3)">
+        <th scope="row">3</th>
+        <td>Anthony</td>
+        <td>Ha</td>
+        <td>Cornerback</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Info Panels -->
+  <div id="info-1" class="info-panel">
+    <strong>Toni Nguyen</strong><br>
+    Position: Wide Receiver<br>
+    Age: 25<br>
+    Team: Tigers
+  </div>
+
+  <div id="info-2" class="info-panel">
+    <strong>Jason Tran</strong><br>
+    Position: Wide Receiver<br>
+    Age: 24<br>
+    Team: Falcons
+    <video width="640" height="360" controls>
+      <source src=".\Project\videot\WhatsApp Video 2024-11-18 at 13.07.20.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div id="info-3" class="info-panel">
+    <strong>Anthony Ha</strong><br>
+    Position: Cornerback<br>
+    Age: 26<br>
+    Team: Wolves
+    <img src="./Project/Kuvat/anthony.jpg" alt="not working" width="100px">
+  </div>
+
+  <h2>Player Highlight Video</h2>
+  <video width="640" height="360" controls>
+    <source src=".\Project\videot\WhatsApp Video 2024-11-18 at 13.07.20.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <script>
+    function toggleInfo(id) {
+      // Get all info panels
+      const panels = document.querySelectorAll('.info-panel');
+      
+      // Hide all panels
+      panels.forEach(panel => panel.classList.remove('visible'));
+      
+      // Toggle the clicked panel
+      const panel = document.getElementById(`info-${id}`);
+      if (panel) {
+        panel.classList.toggle('visible');
+      }
+    }
+  </script>
+</body>
+</html>
