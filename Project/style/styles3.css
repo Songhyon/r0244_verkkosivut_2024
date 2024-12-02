@@ -1,0 +1,83 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        background-image: url("/Project/Kuvat/vecteezy_team-of-american-football-players-ready-to-play_31107683.jpg");
+        height: 50vh; 
+        background-position: center 20%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 20px; 
+        text-align: center;
+}
+
+.bg h1 {
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.7); 
+}
+
+
+
+.vuongkuva {
+    width: 100%;
+    max-width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+video{
+    margin: 25px;
+    width: 60%;
+    align-items: center;
+}
+
+.pbox{
+    float: none;
+}
+
+.box {
+    display: flex; 
+    justify-content: center;
+}
+table{
+    
+    width: 75%;
+}
+
+th, td {
+    border: 1px solid rgba(0, 0, 0, 0.404); 
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: beige;
+}
+
+a.clickable-name:hover {
+    color: #FF6F61;
+    transition: all 0.3s ease-in-out;
+  }
+
+h1{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.v1{
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: fantasy;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
