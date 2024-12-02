@@ -2,3 +2,9 @@
     width: 300px;
 }
 
+table, th, td{
+    border: 1PX solid black;
+}
+tr:hover {
+    background-color: beige;
+}
