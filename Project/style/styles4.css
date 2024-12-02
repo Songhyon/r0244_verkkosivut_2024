@@ -1,0 +1,28 @@
+h1{
+    padding-left: 50px;
+    text-align: center;
+
+}
+
+
+.vuong {
+    align-items: center; /* Center the text and image */
+    margin: 20px; /* Optional: Add some spacing around the div */
+    background-color: aqua;
+    display:flex;
+    position:relative
+}
+
+.vuongkuva {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: right;
+
+}
+
+#carouselExampleIndicators{
+    margin-left: 150px;
+}
