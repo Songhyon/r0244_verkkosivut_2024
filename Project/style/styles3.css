@@ -81,3 +81,21 @@ h1 {
     font-family: fantasy;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+.up-button {
+    position: fixed; /* Fixes the button's position */
+    bottom: 20px; /* Distance from bottom */
+    right: 20px; /* Distance from right */
+    background-color: #28a745; /* Green for the Up button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.up-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
