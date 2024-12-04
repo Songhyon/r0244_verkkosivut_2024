@@ -1,18 +1,36 @@
-html, body {
-    margin: 0; /* Remove default margin */
-    height: 100%; /* Ensure full height for body */
-}
-
 .bg {
-    display: flex;
+    display:flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
     background-image: url("/Project/Kuvat/bbbbb.webp");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; /* Make sure it covers the whole area */
-    height: 100vh; /* Set height to full viewport height */
+    background-size: cover;  
     color: rgb(0, 0, 0);
     text-align: center;
+}
+
+.hero-banner {
+    height: 35vh;
+}
+
+.hero-banner h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-banner p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.hero-banner .btn-primary {
+    background-color: #004080;
+    border: none;
+}
+
+.hero-banner .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+.hero-banner .btn-outline-light:hover {
+    background-color: #fff;
+    color: #004080;
 }
