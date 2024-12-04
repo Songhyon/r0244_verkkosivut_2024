@@ -1,18 +1,18 @@
 html, body {
-    margin: 0; /* Remove default margin */
-    height: 100%; /* Ensure full height for body */
+    margin: 0;
+    height: 100%;
 }
 
 .bg {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+    justify-content: center;
+    align-items: center;
     background-image: url("/Project/Kuvat/bbbbb.webp");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; /* Make sure it covers the whole area */
-    height: 100vh; /* Set height to full viewport height */
+    background-size: cover;
+    height: 100vh;
     color: rgb(0, 0, 0);
     text-align: center;
 }
