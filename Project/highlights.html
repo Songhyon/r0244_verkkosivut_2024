@@ -12,64 +12,103 @@
 
 <body>
 
-  <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="indext.html">Gridiron Prospects</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="indext.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="players.html">Players</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="highlights.html">Highlights</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="start.html">Start Playing</a>
-            </li>
-          </ul>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/Project/indext.html">Gridiron Prospects</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Project/indext.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="players.html">Players</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="highlights.html">Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="start.html">Start Playing</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-  <!-- Highlight Section -->
-  <section class="highlight">
-    <h2>Highlight of the Week</h2>
-    <div class="video">
-      <video src="/Project/videot/vuong1.mp4" controls></video>
+
+    <nav class="navbar secondary-nav">
+      <div class="container">
+          <ul class="nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="#offense">Offense Videos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#defense">Defense Videos</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+  
+
+
+    <div class="bg">
+        <div class="hero-banner d-flex align-items-center text-white">
+            <div class="container text-center">
+                <h1 class="display-4 fw-bold">Check Highlights</h1>
+                <p class="lead mt-3">
+                    Explore the best highlights from American football players around the country! Dive into their skills,
+                    plays, and talent—just like on YouTube. Discover future stars, follow your favorites, and share the
+                    excitement!
+                </p>
+            </div>
+        </div>
     </div>
+
+    <hr>
+ 
+    <section class="highlight">
+      <h2>Highlight of the Week</h2>
+      <div class="highlight-content">
+          <div class="video-container">
+              <video src="/Project/videot/toni3.mp4" muted controls></video>
+          </div>
+          <div class="player-picture">
+              <img src="/Project/Kuvat/toni.jpg" alt="Player Highlighted">
+          </div>
+      </div>
   </section>
 
-  <hr>
+    <hr>
 
-  <!-- Offense Section -->
-  <h2 class="section-title">Offense</h2>
-  <div class="video-grid">
-    <!-- Add multiple video elements -->
-    <div class="video"><video src="/Project/videot/vuong1.mp4" controls></video></div>
-    <div class="video"><video src="/Project/videot/vuong1.mp4" controls></video></div>
-    <div class="video"><video src="/Project/videot/vuong1.mp4" controls></video></div>
-    <div class="video"><video src="/Project/videot/vuong1.mp4" controls></video></div>
-  </div>
 
-  <hr>
+    <section id="offense">
+        <h2 class="section-title">Offense</h2>
+        <div class="video-grid">
+            <div class="video"><video src="/Project/videot/vuong1.mp4" muted controls></video></div>
+            <div class="video"><video src="/Project/videot/vuong2.mp4" muted controls></video></div>
+            <div class="video"><video src="/Project/videot/vuong3.mp4" muted controls></video></div>
+            <div class="video"><video src="/Project/videot/toni2.mp4" muted controls></video></div>
+            <div class="video"><video src="/Project/videot/toni1.mp4" muted controls></video></div>
+        </div>
+    </section>
 
-  <!-- Defense Section -->
-  <h2 class="section-title">Defense</h2>
-  <div class="video-grid">
-    <div class="video"><video src="/Project/videot/vuong1.mp4" controls></video></div>
-    <div class="video"><video src="/Project/videot/vuong1.mp4" controls></video></div>
-    <div class="video"><video src="/Project/videot/vuong1.mp4" controls></video></div>
-  </div>
+    <hr>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <section id="defense">
+        <h2 class="section-title">Defense</h2>
+        <div class="video-grid">
+          <div class="video"><video src="/Project/videot/anthony1.mp4" muted controls></video></div>
+          <div class="video"><video src="/Project/videot/anthony2.mp4" muted controls></video></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
