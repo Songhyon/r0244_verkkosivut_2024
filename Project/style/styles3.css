@@ -3,6 +3,14 @@ body, html {
   margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box; /* Includes padding and border in width */
+}
+
 .bg{
         display: flex;
         flex-direction: column; 
@@ -27,11 +35,8 @@ body, html {
 
 
 .vuongkuva {
-    width: 100%;
-    max-width: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    max-width: 20%; /* Limit size */
+    margin: 10px 10px 10px 0; /* Adjust spacing */
     float: left;
 }
 
@@ -41,8 +46,17 @@ video{
     align-items: center;
 }
 
-.pbox{
-    float: none;
+.pbox {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.media-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 2px;              
 }
 
 .box {
@@ -74,11 +88,8 @@ h1{
 }
 
 .v1{
-    margin-left: 20px;
-}
-
-h1 {
     font-family: fantasy;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
 }
 

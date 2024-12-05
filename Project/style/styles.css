@@ -11,14 +11,13 @@ html, body {
     background-image: url("/Project/Kuvat/bbbbb.webp");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; /* Make sure it covers the whole area */
-    height: 100vh; /* Set height to full viewport height */
+    background-size: cover;
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
 .hero-banner {
-    height: 35vh;
+    height: 50vh;
 }
 
 .hero-banner h1 {

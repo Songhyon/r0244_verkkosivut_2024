@@ -1,23 +1,55 @@
-h1{
-    padding-left: 50px;
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(/Project/Kuvat/baggg.webp) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.highlight {
     text-align: center;
-
+    padding: 3rem;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+    border-bottom: 2px solid #f4b400;
+    margin-bottom: 2rem;
+    color: #fff;
 }
 
-
-.vuong {
-    align-items: center; /* Center the text and image */
-    margin: 20px; /* Optional: Add some spacing around the div */
-    background-color: aqua;
-    display:flex;
-    position:relative
+.section-title {
+    text-align: center;
+    color: #f4b400;
+    font-size: 2rem;
+    margin: 2rem 0;
+    text-transform: uppercase;
 }
 
-.vuongkuva {
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.video {
+    background-color: #222;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f4b400;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.video video {
     width: 100%;
-    max-width: 300px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    float: right;
+    height: auto;
+    border-radius: 5px;
 }
