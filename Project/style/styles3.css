@@ -1,14 +1,7 @@
-body, html {
-  height: 100%;
-  margin: 0;
-}
+
 
 body {
     overflow-x: hidden;
-}
-
-* {
-    box-sizing: border-box; /* Includes padding and border in width */
 }
 
 .bg{
@@ -35,9 +28,11 @@ body {
 
 
 .vuongkuva {
-    max-width: 20%; /* Limit size */
-    margin: 10px 10px 10px 0; /* Adjust spacing */
     float: left;
+    max-width: 20%;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 video{
@@ -47,7 +42,6 @@ video{
 }
 
 .pbox {
-    content: "";
     display: block;
     clear: both;
 }
