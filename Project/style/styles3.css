@@ -9,7 +9,7 @@ body {
         flex-direction: column; 
         justify-content: center;
         align-items: center;
-        background-image: url("/Project/Kuvat/vecteezy_team-of-american-football-players-ready-to-play_31107683.jpg");
+        background-image: url("./Project/Kuvat/vecteezy_team-of-american-football-players-ready-to-play_31107683.jpg");
         height: 25%; 
         background-position: center 20%;
         background-repeat: no-repeat;
